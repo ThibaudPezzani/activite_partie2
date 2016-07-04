@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url(ressources/Consolas.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1f2328 ;
+    color: #ffffff;
+    font-family: 'Consolas', Arial, sans-serif;
+}
+
+#lien_formulaire:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+#fermer_btn {
+    position: absolute;
+    background-image: url(ressources/circle.png);
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    padding: 7px 15px;
+    right: 25%;
+    color: #ffffff;
+}
+
+#fermer_btn {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+.enveloppe {
+    vertical-align: middle ;
+    margin-right: 5px;
+}
+
+#bloc_formulaire {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px 60px 25px 60px;
+    border-radius: 10px;
+    background-image: url(ressources/pattern.jpg);
+    box-shadow: 0px 4px 0px #000002;
+    -webkit-box-shadow: 0px 4px 0px #000002;
+    -moz-box-shadow: 0px 4px 0px #000002;
+}
+
+
+input, textarea {
+    background-color: #343434;
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+.dropdown select{
+    border: 0 !important;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+    background: url(ressources/arrow.png) no-repeat right, -webkit-linear-gradient(top, #4e4e4e, #5f5f5f);
+    background: url(ressources/arrow.png) no-repeat right, -moz-linear-gradient(top, #4e4e4e, #5f5f5f);
+    background: url(ressources/arrow.png) no-repeat right, -ms-linear-gradient(top, #4e4e4e, #5f5f5f);
+    background: url(ressources/arrow.png) no-repeat right, -o-linear-gradient(top, #4e4e4e, #5f5f5f);
+    background: url(ressources/arrow.png) no-repeat right, linear-gradient(to bottom, #4e4e4e, #5f5f5f);
+    background-color: #4e4e4e;
+    width: 100%;
+}
+
+select {
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+  }
+
+.btn {
+    background: #f6922f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6922f),  color-stop(49%,#f58028), color-stop(51%,#e76b11), color-stop(100%,#eb5c12));
+    background: -moz-linear-gradient(top, #f6922f 0%, #f58028 49%, #e76b11 51%, #eb5c12 100%);
+    background: -ms-linear-gradient(top, #f6922f 0%, #f58028 49%, #e76b11 51%, #eb5c12 100%);
+    background: -o-linear-gradient(top, #f6922f 0%, #f58028 49%, #e76b11 51%, #eb5c12 100%);
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #f9ad62;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9ad62),  color-stop(49%,#f5a162), color-stop(51%,#ed9351), color-stop(100%,#ef844d));
+    background: -moz-linear-gradient(top, #f9ad62 0%, #f5a162 49%, #ed9351 51%, #ef844d 100%);
+    background: -ms-linear-gradient(top, #f9ad62 0%, #f5a162 49%, #ed9351 51%, #ef844d 100%);
+    background: -o-linear-gradient(top, #f9ad62 0%, #f5a162 49%, #ed9351 51%, #ef844d 100%);
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+.recuperation_donnees {
+    background: #f0fbff;
+    color: #333333;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.recuperation_donnees p {
+    margin: 8px 0 8px 0;
+}
