@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- en-tête de la page -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Exercice formulaire JS</title>
+	</head>
+
+<body>
+    <div id="lien_formulaire">Remplir le formulaire</div>
+    
+    <div id="remerciement">
+    </div>
+    
+    <div id="bloc_formulaire">
+        <span id="fermer_btn">x</span>
+        <header>
+            <h1><img class="enveloppe" src="ressources/enveloppe.png">CONTACT</h1>
+        </header>
+        <section id="formulaire">
+            <form method="post" action="#" id="formulaire">
+				<input type="text" name="nom" id="nom" placeholder="Nom" required/>
+                <div class="dropdown">
+                    <select name="objet" id="objet" required>
+                        <option value="" disabled selected>Objet</option>
+                        <option value="Question">Question</option>
+                        <option value="Inscription">Inscription</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+				<input type="email" name="mail" id="mail" placeholder="Email" required/>
+                <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                <input class="btn" type="submit" value="Envoyer"></input>
+            </form>
+        </section>
+    </div>
+    
+    <div id="contenu">
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+
+</html>
